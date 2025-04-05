@@ -1,5 +1,9 @@
 pipeline {
     agent any
+  
+  tools {
+        nodejs 'NodeJS_20' // Use the name you gave to your Node.js installation
+    }
     
     environment {
         // Configure these variables according to your project
